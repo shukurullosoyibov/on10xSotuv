@@ -28,7 +28,7 @@ import MyCourse from "./pages/MyCourse";
 import LessonWatch from "./Component/LessonWatch";
 
 import CourseMain from "./pages/CourseMain";
-import Parctic from "./RootLayout/Parctic";
+
 
 function App() {
   const [isloading, setLoading] = useState(false);
