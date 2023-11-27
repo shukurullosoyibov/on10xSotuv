@@ -13,7 +13,7 @@ import parnerPhoto9 from '../img/Rectangle 78 (2).png';
 import parnerPhoto10 from '../img/Rectangle 78.png';
 import parnerPhoto11 from '../img/Rectangle 79.png'; 
 import parnerPhoto12 from '../img/Rectangle 79 (1).png'; 
-import parnerPhoto13 from '../img/Rectangle 79 (2).png';
+
 
 const Partner = () => {
 

@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import svg_emoji from '../svg/emoji-smile.svg'
-import noCommnet from '../img/notComments.png';
+
 import { initTE } from "tw-elements";
-import EmojiPicker from 'emoji-picker-react';
+
 import useSound from "use-sound";
 import mySound from "../sound/click.mp3";
 import { Collapse, Dropdown, Ripple } from "tw-elements";
@@ -12,9 +11,7 @@ import { Collapse, Dropdown, Ripple } from "tw-elements";
 import "../style/Lesson.css";
 
 import AccardionCard from "../img/AccardionCard";
-import IzohCard from "../img/IzohCard";
-import SellCourse from "../Component/SellCourse";
-import DropDown from "../Component/DropDown";
+
 import ModalSell from "../Component/ModalSell";
 import { Outlet, useParams } from "react-router-dom";
 import { useQuery } from "react-query";
@@ -23,7 +20,7 @@ initTE({ Dropdown, Collapse, Ripple });
 const CourseMain = () => {
 const slug = useParams();
 const navigate = useNavigate();
-//  const section_API = `https://shark.brim.uz/api/course-manager/course/sections?key=${'sotuvlarni-bosharish'}`;
+
  const section_API = `https://shark.brim.uz/api/course-manager/course/sections?key=${slug.slug}`;
  const token = localStorage.getItem('token');
   
@@ -225,15 +222,9 @@ const navigate = useNavigate();
   setCll(!cll);
  }
 
- const onEmojiClick = ({ emoji }) => {
-  setMessage(`${message} ${emoji}`);
  
- }
  if (error) return 'An error has occurred: ' + error.message
-  // if(data){
-  //   console.log(slug);
-  //   console.log(data);
-  // }
+  
   
   const lastLesson = 2;
   return (

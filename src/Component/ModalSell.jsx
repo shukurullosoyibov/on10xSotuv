@@ -4,14 +4,14 @@ import SellCourse from './SellCourse';
 
 import frame_svg from "../svg/Frame.svg";
 
-import {  useNavigate, useParams } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 import { motion, AnimatePresence } from 'framer-motion';
 const ModalSell = ({data, slug}) => {
     const [hidden, setHidden] = useState(false);
     const [done, setDone] = useState(false);
     const navigate = useNavigate();
  
-    // const {slug} = useParams();
+
     
 
   return (

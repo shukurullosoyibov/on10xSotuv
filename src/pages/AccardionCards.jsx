@@ -6,41 +6,11 @@ import AccardionMain from "./AccardionMain";
 const AccardionCards = ({ article, id, slug,  }) => {
   
   const [isActive,setActive] = useState(true);
-  // if(item){
-  //   console.log(item);
-  // }
+ 
   const clicker = () =>{
     setActive(!isActive);
   } 
-  // if(slug){
-  //   console.log(slug);
-  // }
-    // const num = [
-    //     {
-    //       id: 0,
-    //       n: "One",
-    //     },
-    //     {
-    //       id: 1,
-    //       n: "Two",
-    //     },
-    //     {
-    //       id: 2,
-    //       n: "Three",
-    //     },
-    //     {
-    //       id: 3,
-    //       n: "Four",
-    //     },
-    //     {
-    //       id: 4,
-    //       n: "Five",
-    //     },
-    //     {
-    //       id: 5,
-    //       n: "Six",
-    //     },
-    //   ];
+  
      
   return (
     <div className="accordion-card">

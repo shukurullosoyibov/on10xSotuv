@@ -1,15 +1,11 @@
 import React from "react";
-// import { svg_batafsil } from "../svg/sgv";
+
 import { Link } from "react-router-dom";
 
 import { useEffect, useState} from "react";
 
 import '../style/content.css'
-// import coursePhoto1 from '../img/Rectangle 3 (2).png'
-// import coursePhoto2 from '../img/Rectangle 3 (3).png'
-// import coursePhoto3 from '../img/Rectangle 3 (4).png'
-// import coursePhoto4 from '../img/Rectangle 3.png'
-// import { fetchCourses } from "../fetch/fetchGetData";
+
 import { isError, useQuery } from "react-query";
 import CourseCard from './CourseCard';
 import CourseSkelron from "./Skeleron/CourseSkelron";
@@ -18,9 +14,7 @@ import { fetchBesteller } from "../fetch/fetchGetData";
 
 const Content = () => {
   const courses_API = 'https://shark.brim.uz/api/course-manager/course/bestseller';
-// const {isLoading, isFetching, data} = useQuery( fetchBesteller);
-// const {isLoading, isFetching, isError,error, data} = useQuery(fetchBesteller)
-// if(data){ console.log(data);}
+
 const [isLoading, setLoading] = useState(false);
 const [data, setData] = useState('');
 

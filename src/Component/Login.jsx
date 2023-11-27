@@ -3,7 +3,7 @@ import { svg_reg } from '../svg/sgv';
 import { Link, useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { useDispatch, useSelector } from 'react-redux';
-import { loginSuccess } from '../redux/authSlice';
+
 import { loginUser } from '../redux/userSlice';
 import { motion, AnimatePresence } from 'framer-motion';
 const Login = () => {

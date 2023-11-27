@@ -8,10 +8,7 @@ import { useEffect } from 'react';
 import CourseSkelron from '../Component/Skeleron/CourseSkelron';
 export default function MyCourse() {
     const my_course_API = 'https://shark.brim.uz/api/profile-manager/profile/my-courses';
-   
-    function fetchMyCourse () {
-        fetch(my_course_API,)
-    }
+
 
   
   const [dataa, setData] = useState('');
@@ -107,7 +104,7 @@ export default function MyCourse() {
 
                   </div>
                   <div className='w-full bg-[#E6EDF2] rounded-[50px] overflow-hidden h-3'>
-                    {/* <div  className= 'w-[0%] bg-[#098BED] rounded-[50px] h-full'> */}
+                    
                     <div  className={ `w-[${lesson?.completedPercent}%] bg-[#098BED] rounded-[50px] h-full`}>
   
                     </div>

@@ -4,14 +4,13 @@ import { svg_lock, svg_play } from "../svg/sgv";
 import { useNavigate } from "react-router-dom";
 const AccardionMain = ({ article, isActive,slug }) => {
    const [isReady , setReady] = useState(false)
-  //  icon = document.querySelector('#icon')
+
   const navigate = useNavigate();
     const handle = () => {
         
         setReady(true);
         navigate(`/courseMain/${slug.slug}/${article.id}`)
-        // e.target.classList.toggle("active");
-        // icon.classList.replace("fa-circle-notch", "fa-check");
+        
       };
     
   return (

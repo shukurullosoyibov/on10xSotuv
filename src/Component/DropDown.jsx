@@ -1,21 +1,12 @@
-'use client';
-import React,{ Fragment, useEffect, useRef, useState } from 'react'
 
-import { Menu, Transition } from '@headlessui/react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import React,{ useState } from 'react'
 
-import { svg_download } from '../svg/sgv'
+
 
 const DropDown = ({files}) => {
   const [active, setActive] = useState(false);
   const [active2, setActive2] = useState(false);
 
-  if(files){
-    console.log( ' singingn ' ,files);
-  }
-  useEffect(()=>{
-    alert('files')
-  },[])
  
   return (
     <div className="">

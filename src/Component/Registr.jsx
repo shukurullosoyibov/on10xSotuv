@@ -1,18 +1,18 @@
 import React, { useEffect } from 'react'
-import { useDispatch } from 'react-redux';
+
 import { useState } from 'react'
 import { Link, useNavigate } from "react-router-dom";
 import { svg_login } from '../svg/sgv';
-import { signUpUser } from '../redux/authSlice';
-import { motion, AnimatePresence } from 'framer-motion';
+
+import { motion } from 'framer-motion';
 const Registr = () => {
-    const [isRegistr, setRegistr] = useState(true)
+    
     const [showPassword, setShowPassword] = useState(false);
   const [showPassword2, setShowPassword2] = useState(false);
   const [password, setPassword] = useState("");
   const [password_repeat, setPassword2] = useState("");
   const [firstname, setFirstname] = useState("");
-  const [lastname, setLastname] = useState("");
+ 
   const [phone, setPhone] = useState("");
   const [isLoading, setLoading] = useState(false);
   const [error, setError] = useState("");

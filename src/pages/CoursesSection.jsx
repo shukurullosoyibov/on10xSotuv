@@ -1,15 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { svg_batafsil } from '../svg/sgv'
-import { Link, useNavigate } from 'react-router-dom'
+import {  useNavigate } from 'react-router-dom'
 import '../App.css'
 import 'react-loading-skeleton/dist/skeleton.css'
-import CourseSkelron from '../Component/Skeleron/CourseSkelron'
-import coursePhoto1 from '../img/Rectangle 3 (2).png'
-import coursePhoto2 from '../img/Rectangle 3 (3).png'
-import coursePhoto3 from '../img/Rectangle 3 (4).png'
-import coursePhoto4 from '../img/Rectangle 3.png'
 
 import { useQuery } from 'react-query'
+import CourseSkelron from '../Component/Skeleron/CourseSkelron'
  const token = localStorage.getItem('token');
 export default function CoursesSection () {
   const [article, setArticle] = useState([]);

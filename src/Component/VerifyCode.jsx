@@ -6,12 +6,12 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Link, useParams } from "react-router-dom";
 
-import { useHistory, useNavigate } from "react-router-dom";
+import {  useNavigate } from "react-router-dom";
 
 const VerifyCode = (props) => {
   const [code, setVerificationCode] = useState("");
   const { phone } = useParams();
-  // const [isSuccess, setIsSuccess] = useState(false);
+
 
   const [isLoading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -126,26 +126,24 @@ const VerifyCode = (props) => {
     };
   }, [time]);
 
-  const handleBack = () => {
-    props.setIsRegistered(false);
-  };
+ 
   const handleVery = () => {
    
     fetchPost();
     btn.disabled = false;
 
     btn.style.cursor = "wait";
-    // btnText.textContent = '';
+ 
     icon.classList.replace("fa-check", "fa-circle-notch");
     setTimeout(() => {
       btn.style.pointerEvents = "none";
-      // btnText.textContent = 'done';
+    
       icon.classList.replace("fa-circle-notch", "fa-check");
       icon.classList.add(".checked");
       btn.disabled = true;
     }, 2000);
     setTimeout(() => {
-      // setIsVerified(true);
+   
     }, 3000);
   }
   useEffect(()=>{

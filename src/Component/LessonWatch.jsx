@@ -9,16 +9,9 @@ import EmojiPicker from 'emoji-picker-react';
 import useSound from "use-sound";
 import mySound from "../sound/click.mp3";
 import { Collapse, Dropdown, Ripple } from "tw-elements";
-
-
-
 import "../style/Lesson.css";
-
-import AccardionCard from "../img/AccardionCard";
 import IzohCard from "../img/IzohCard";
-import SellCourse from "../Component/SellCourse";
 
-import ModalSell from "../Component/ModalSell";
 import {  useNavigate, useParams } from "react-router-dom";
 import { useQuery } from "react-query";
 import VideoPlayer from './VideoPlayer';
@@ -51,10 +44,7 @@ const LessonWatch = () => {
     window.scrollTo(0, 0);
 
   }, [])
-//  useEffect(()=>{
-   
-//     refetch();
-//  },[id])
+
   const [izohlar, setIzohlar] = useState( [
 
       {
@@ -202,11 +192,7 @@ const LessonWatch = () => {
                 {  isPending ? "Loading..." : data?.data?.lesson.title}
               </h2>
               <div className=" mb-8 relative grid place-items-center  rounded-[18px] w-full h-auto overflow-hidden">
-                {/* <img
-                  alt="content"
-                  className=" left-0 right-0 bottom-0 top-0 relative object-cover object-center h-full w-full"
-                  src={data?.data?.course?.imageUrl}
-                /> */}
+               
                 { data && data?.data?.lesson ?
 
                 <VideoPlayer videoUrl={data?.data?.lesson?.srcUrl}/>

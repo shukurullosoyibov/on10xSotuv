@@ -45,13 +45,13 @@ const CourseAbout = () => {
         const data = await request.json();
         setUrl(data);
         if(data.status === 200){
-          console.log(data);
+          
           // href=(urls?.data.url);
           // target=(_blank);
         }
         else if (data.status === 403){
           navigate(`/courseAbout/${slug}`)
-          console.log(data.message);
+          
         }
       }
     } catch (error) {
@@ -125,13 +125,11 @@ const CourseAbout = () => {
  
       useEffect(() => {
         window.scrollTo(0, 0);
-        console.log(slug);
+     
       }, [])
 
 
-// if(data){
-//   console.log(data.data);
-// }
+
   return (
     <
     >
