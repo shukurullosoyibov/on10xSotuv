@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+*{
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  color: #000;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --fontRubik: 'Rubik', sans-serif;
+  --green: #00AE30;
+  --menuColor:#7784A4;
+  --greenColor:color: #00AE30;
+  --color_08:rgba(0, 0, 0, 0.80);
+  --color_06:rgba(0, 0, 0, 0.60);
+  --logoBG: #D9D9D9;
+  --bg1:#F2F8FB;
+  --iconFull:#E6F1F6;
+  --tw-ring-offset-shadow: 0 0 #9e0505;
+--tw-ring-offset-shadow: 0 0 #c70707;
+--tw-shadow: 0 10px 15px -3px rgba(220, 8, 8, 0.979), 0 4px 6px -4px rgba(250, 11, 11, 0.968);
+
+--tw-backdrop-blur: blur(12px);
+
+
+}
+.heroBG{
+  background: linear-gradient(102deg, #FEE 1.47%, #EAFCF1 35.95%, #FBFAF3 97.7%);
+}
+.navBG{
+  
+   background: linear-gradient(102deg, #FEE 1.47%, #EAFCF1 35.95%, #FBFAF3 97.7%), #D9D9D9;
+}

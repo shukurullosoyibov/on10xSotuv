@@ -1,0 +1,8 @@
+.heroIMG{
+    width: 539.39px;
+height: 568px;
+    fill: var(--green, #00AE30);
+}
+.heroLorem{
+    background: linear-gradient(0deg, #F2F8FB 0%, #F2F8FB 100%), linear-gradient(102deg, #FBFAF3 0%, #EAFCF1 36%, #FBFAF3 100%); border-radius: 12px; flex-direction: column; justify-content: center; align-items: center; gap: 8px;
+}

@@ -1,0 +1,145 @@
+
+
+.verify{
+    position: relative;
+    z-index: 100;
+    display: flex;
+    width: 467px;
+    height: 419px;
+
+    flex-shrink: 0;
+    border-radius: 24px;
+   
+   
+    background: #FFF;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+.verify .goPrew svg{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    
+}
+.css-333{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+.css-333 h2{
+    text-align: center;
+    flex: 1 0 80%;
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+.close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 1001;
+    cursor: pointer;
+}
+.numer{
+    width: 375px;
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+
+}
+.numer span{
+    font-weight: 600;
+    color: #098BED;
+}
+.verify>span{
+    color: #6D7983;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.verify>
+.code__enter__main {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    
+}
+.code__enter__main input[placeholder]{
+    
+}
+.code__enter__main input{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+  
+    text-align: center;
+    display: flex;
+    width: 47px;
+    height: 47px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid rgba(11, 10, 55, 0.10);
+    background: #F7F8FA;
+}
+
+button.btn__login{
+    width: 100%;
+}
+.resend{
+    cursor: pointer;
+    color: #098BED;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.succeess.very
+{ 
+    display: grid;
+    place-items: center;
+    gap: 2rem;
+
+    
+}
+.succeess.very span{
+    border-radius:50%;
+align-items:center;
+    display: flex;
+align-content:center;
+justify-content: center;
+
+    width: 128px;
+    height: 128px;
+    
+    background: #EEF8FF;
+
+}
+.succeess div{
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%; /* 33.6px */
+}

@@ -1,0 +1,14 @@
+.toggleLesson.active h3 {
+  color: var(--green);
+}
+.sells {
+  border-radius: 18px;
+  background: linear-gradient(
+    102deg,
+    #fee 1.47%,
+    #eafcf1 35.95%,
+    #fbfaf3 97.7%
+  );
+ 
+
+}

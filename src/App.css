@@ -1,0 +1,63 @@
+.slide-in{
+    position: fixed;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #0f0f0f;
+    transform-origin: bottom;
+}
+.slide-out{
+    position: fixed;
+    top: 0;left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #0f0f0f;
+    transform-origin: top;
+}
+.show{
+    animation:   hid;
+    background: #000;
+    height: 0;
+    transition: all ease 1s;
+}
+a span{
+    color: var(--green);
+
+}
+a.btn-anim:hover{
+    animation: btnanim 1s ease infinite alternate-reverse;
+    animation-fill-mode: forwards;
+}
+a.btn-anim svg{
+    animation: btnanim 1s ease infinite alternate-reverse ;
+ 
+}
+
+ @keyframes btnanim {
+    0%{
+       
+        transform: translateX(0);
+        transition: all 700ms;
+        
+    }
+
+    100%{   
+        transition: all 700ms;
+        transform: translateX(12px);
+       
+    }
+ }
+ .course-card-hover:hover{
+    background:#F8FAFC ;
+
+    box-shadow: 0px 0px 2px 2px #bbbbbc,
+    0px 0px 4px 2px #bbbbbc,
+    0px 0px 6px 2px #bbbbbc,
+    0px 0px 8px 2px #bbbbbc
+    
+    ;
+ }
+.course-card-hover div img:hover{
+    transform: scale(1.09);
+    transition: transform ease-in-out 500ms;
+ }

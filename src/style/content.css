@@ -1,0 +1,16 @@
+.animation{
+
+    animation: 900ms ease-in content-anim;
+  }
+  @keyframes content-anim {
+    from {
+      opacity: 0;
+      /* pushes the sun down past the viewport */
+      transform: translateY(150px);
+    }
+    to {
+        opacity: 1;
+      /* returns the sun to its default position */
+      transform: translate(0);
+    }
+  }

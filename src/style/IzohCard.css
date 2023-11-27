@@ -1,0 +1,20 @@
+.alert-enter {
+    opacity: 0;
+  }
+  
+  .alert-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms;
+  }
+  
+  .alert-exit {
+    opacity: 1;
+  }
+  
+  .alert-exit-active {
+    opacity: 0;
+    transition: opacity 1000ms;
+  }
+  .javob__izohlar{
+    background: linear-gradient(102deg, #FEE 1.47%, #EAFCF1 35.95%, #FBFAF3 97.7%), #D9D9D9;
+  }

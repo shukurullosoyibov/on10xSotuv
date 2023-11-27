@@ -1,0 +1,348 @@
+/* @import '../index.css'; */
+
+.container {
+    width: 100%;
+    padding-left :1rem ;
+    padding-right: 1rem;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.scrol {
+  --tw-shadow: 0 10px 15px -3px rgb(0,0,0, 0.1), 0 4px 6px -4px rgb(0,0,0, 0.1);
+  --tw-backdrop-blur: blur(12px);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+
+.footer_nav{
+  width: calc( 100% - 128px);
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logoBG {
+  
+  height: 48px;
+  flex-shrink: 0;
+  background-color: var(--logoBG);
+}
+.menuBG{
+    height: 48px;
+    background: var(--green);
+  flex-shrink: 0;
+  
+}
+.title_16_600 {
+  font-size: 16px;
+
+  font-weight: 600;
+}
+.title_34_600 {
+  font-size: 34px;
+
+  font-weight: 600;
+}
+.title_32_600{
+  font-size: 32px;
+
+  font-weight: 600;
+}
+.title_32_600 span{
+  color: var(--green);
+}
+.title_34_600 span{
+  color: var(--green);
+}
+.title_28_600{
+  font-size: 28px;
+  color: #000;
+  font-weight: 600;
+  
+}
+.title_28_600 span{
+
+  color: var(--green);
+  } 
+
+.title_24_600{
+  font-family: var(--fontRubik);
+  font-size: 24px;
+  color: #000;
+  font-weight: 600;
+  
+}
+.title_24_600 span{
+  color: var(--green);
+}
+.title_16_400 {
+  font-size: 16px;
+  color: var(--color_08);
+  font-weight: 400;
+}
+.title_16_500 {
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+}
+.title_16_500_green{
+  color: #00AE30;
+  font-size: 16px;
+  font-weight: 500;
+}
+.title_16_400_06{
+  font-size: 16px;
+  color: var(--color_06);
+  font-weight: 400;
+}
+.title_14_400 {
+  color: var(--color_06);
+  font-size: 14px;
+
+  font-weight: 400;
+}
+.title_14_400_08 {
+  color: var(--color_08);
+  font-size: 14px;
+
+  font-weight: 400;
+}
+.title_16_400_white {
+  color: white;
+  font-size: 16px;
+
+  font-weight: 400;
+}
+.title_14_400_black {
+  color: black;
+  font-size: 14px;
+
+  font-weight: 400;
+}
+.title_18_400{
+    font-size: 18px;
+  color: var(--color_06);
+    font-weight: 400;
+  }
+  .title_20_500{
+    font-size: 20px;
+  color: #000;
+    font-weight: 500;
+  }
+  .title_24_500{
+    font-size: 24px;
+  color: #000;
+    font-weight: 500;
+  }
+  .title_20_600{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+  }
+  .title_18_500{
+    font-size: 18px;
+  color: #000;
+    font-weight: 500;
+  }
+  .title_18_500_08{
+    font-size: 18px;
+  color: rgba(0, 0, 0, 0.80);
+    font-weight: 500;
+  }
+  .title_18_600{
+    font-size: 18px;
+  color: #000;
+    font-weight: 600;
+  }
+  .title_18_600_green{
+    font-size: 18px;
+  color: var(--green);
+    font-weight: 600;
+  }
+.title_17_400{
+    font-size: 17px;
+    font-weight: 400;
+}
+.title_17_500{
+  font-size: 17px;
+  font-weight: 500;
+}
+.title_16_500{
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.title_16_500_green{
+color:#00AE30 ;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.title_42_600 span{
+    color: var(--green);
+}
+.title_12_400_05{
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.50);
+}
+.menuColor:hover{
+    transition: all 0.5s ease; 
+
+}
+.menuColor{
+    color: var(--menuColor);
+}
+.menuColor.active{
+    font-weight: 600;
+    color: #1D2230;
+}
+.btn{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;    line-height: 24px;
+  gap: 6px;
+  position: relative;
+  padding: 14px 32px;
+  transition: all 0.7s ease;
+   background: #00AE30; border-radius: 18px;
+}
+
+.bg100{
+  border-radius: 12px;
+background: linear-gradient(102deg, #FBFAF3 1.47%, #EAFCF1 35.95%, #FBFAF3 97.7%), #F2F8FB;
+}
+
+.btnNOTGREEN{
+  color: var(--green);
+  width: 100%; height: 100%; border-radius: 18px;
+}
+
+.munesec{
+    background-color: var(--green);
+    
+}
+.code__enter input{
+ color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+
+  text-align: center;
+  display: flex;
+  width: 47px;
+  height: 47px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid rgba(11, 10, 55, 0.10);
+  background: #F7F8FA;
+}
+.bg-card-gradient:hover{
+  background: var(--logoBG);
+}
+.anim{
+ 
+  
+  animation: 500ms linear sun-rise }
+  
+  @keyframes sun-rise {
+    from {
+      background: #00000071;
+      /* pushes the sun down past the viewport */
+      transform: translate(-100px, 100px);
+    }
+    to {
+      /* returns the sun to its default position */
+      transform: translate(0);
+    }
+  }
+  
+  
+.heroImg{
+  animation: 900ms ease-in hero-anim
+}
+@keyframes hero-anim {
+  from {
+
+    /* pushes the sun down past the viewport */
+    transform: translate(500px, -50px);
+  }
+  to {
+    /* returns the sun to its default position */
+    transform: translate(0);
+  }
+}
+.partnerAnim{
+  animation: 700ms ease-in  parter-anim ;
+}
+@keyframes parter-anim  {
+  from {
+
+    /* pushes the sun down past the viewport */
+    transform: scale(0.5)
+  }
+  to {
+    /* returns the sun to its default position */
+    transform: scale(1);
+  }
+}
+
+.profile-anim{
+  animation-fill-mode: forwards;
+  animation: 1000ms ease-in  prof-anim ;
+}
+@keyframes prof-anim  {
+  from {
+  opacity: 0.8;
+    /* pushes the sun down past the viewport */
+   transform: translateX(0px);
+  }
+  to {
+    /* returns the sun to its default position */
+    opacity: 0;
+    display: none;
+    transform: translateX(-150px);
+  }
+}
+textarea{
+  background: rgba(#fcfeff);
+  color:black;
+  font-weight:300;
+
+  box-shadow: 0 0 2px 2px rgba(229, 236, 243, 0.326), 
+  0 0 4px 2px rgba(229, 236, 243, 0.326),
+  0 0 6px 2px rgba(229, 236, 243, 0.326),
+  0 0 8px 2px rgba(229, 236, 243, 0.326),
+  0 0 10px 2px rgba(229, 236, 243, 0.326),
+  0 0 12px 2px rgba(229, 236, 243, 0.326);
+  
+}.fa-check{
+  box-sizing: border-box;
+ 
+  line-height: 17px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 17px;
+  height: 17px;
+}
+.fa-circle-notch{
+  animation: animat 1s ease infinite;
+}
+
+@keyframes animat{
+  0%{
+    transform: rotate(0turn);
+  }
+  100%{
+    transform: rotate(1turn);
+  }
+}
+.fa-check.checked{
+  color: var(--green);
+  background: #fff;
+}
